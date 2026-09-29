@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Code Solutions — Software Development &amp; Team Extension</title>
+  <meta name="description" content="Simple Code Solutions is a software development company. We partner with clients to build web applications end to end, or join their teams as experienced full-stack engineers." />
+  <meta name="theme-color" content="#0b1020" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Simple Code Solutions" />
+  <meta property="og:description" content="Software development and team extension. Full-stack engineering in React, TypeScript, Node.js, Python and AWS." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Simple Code Solutions home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="url(#bg)" />
+          <path d="M12 10l-5 6 5 6M20 10l5 6-5 6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          <defs><linearGradient id="bg" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#22d3ee" /><stop offset="1" stop-color="#8b5cf6" /></linearGradient></defs>
+        </svg>
+        <span>Simple Code <strong>Solutions</strong></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-menu" class="nav-menu" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#engagement">How we work</a>
+        <a href="#stack">Tech stack</a>
+        <a href="#experience">Experience</a>
+        <a class="btn btn-small" href="#contact">Start a project</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Software development &amp; team extension</p>
+          <h1>Complex problems.<br /><span class="gradient-text">Simple code.</span></h1>
+          <p class="lead">
+            We build web applications for our clients from start to finish, or join their teams as
+            senior full-stack engineers. React, TypeScript, Node.js, Python and AWS, used in
+            fintech and logistics since 2017.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Let's talk about your project</a>
+            <a class="btn btn-ghost" href="#services">What we do</a>
+          </div>
+          <ul class="hero-stats" aria-label="Highlights">
+            <li><strong data-years-since="2017">9+</strong><span>years building software</span></li>
+            <li><strong>4</strong><span>long-term client partnerships</span></li>
+            <li><strong>End-to-end</strong><span>from front end to cloud</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-bar">
+              <span></span><span></span><span></span>
+              <em>project.ts</em>
+            </div>
+<pre class="code"><code id="typed-code"></code><span class="caret"></span></pre>
+          </div>
+          <div class="float-card float-a">
+            <span class="fc-icon">✓</span>
+            <div><strong>Deployed to production</strong><small>CI/CD pipeline · 3m 12s</small></div>
+          </div>
+          <div class="float-card float-b">
+            <span class="fc-icon alt">⚡</span>
+            <div><strong>Tests passing</strong><small>unit · integration · e2e</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="strip" aria-label="Industries">
+      <div class="container strip-inner">
+        <span class="strip-label">Industries we've worked in</span>
+        <ul>
+          <li>Fintech</li>
+          <li>Financial dashboards</li>
+          <li>Logistics &amp; shipping</li>
+          <li>IT services</li>
+          <li>Software outsourcing</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Services</p>
+          <h2>Two ways to work with us</h2>
+          <p class="section-sub">Hand us a product to build, or add experienced engineers to the team you already have. We fit into your process either way.</p>
+        </header>
+
+        <div class="twin-cards">
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H4zM8 20h8M12 16v4" /></svg>
+            </div>
+            <h3>Custom software development</h3>
+            <p>We take a product from idea to production. We gather requirements, design the architecture, build the front end and back end, test it and deploy it to the cloud.</p>
+            <ul class="checks">
+              <li>Web applications and dashboards</li>
+              <li>APIs, microservices and integrations</li>
+              <li>Estimates, planning and delivery you can track</li>
+            </ul>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon alt">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" /><circle cx="17" cy="9" r="2.4" /><path d="M3 19c.6-3.2 3-5 6-5s5.4 1.8 6 5M15 14.2c2.6-.2 4.6 1.3 5.2 4.3" /></svg>
+            </div>
+            <h3>Team extension</h3>
+            <p>We add senior engineers to your team. They work in your tools, attend your ceremonies and follow your code standards, and they start contributing in the first sprint.</p>
+            <ul class="checks">
+              <li>Full-stack, front-end or back-end roles</li>
+              <li>Remote-first and used to distributed teams</li>
+              <li>Flexible scaling as your roadmap changes</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="service-grid">
+          <article class="service reveal">
+            <h4>Front-end engineering</h4>
+            <p>Fast, responsive interfaces in React and TypeScript, with Redux for complex state and reusable component libraries.</p>
+          </article>
+          <article class="service reveal">
+            <h4>Back-end &amp; APIs</h4>
+            <p>REST services and microservices in Node.js, Express, NestJS, Flask and Django, with SQL and NoSQL data stores.</p>
+          </article>
+          <article class="service reveal">
+            <h4>Cloud &amp; CI/CD</h4>
+            <p>AWS infrastructure, Docker and automated pipelines that get features to production quickly and safely.</p>
+          </article>
+          <article class="service reveal">
+            <h4>High-throughput systems</h4>
+            <p>Asynchronous messaging with RabbitMQ and caching with Redis for systems that handle heavy load.</p>
+          </article>
+          <article class="service reveal">
+            <h4>Quality &amp; testing</h4>
+            <p>Unit, integration and end-to-end tests with Jest, plus code review practices that keep quality high.</p>
+          </article>
+          <article class="service reveal">
+            <h4>AI-assisted delivery</h4>
+            <p>We use Claude and GitHub Copilot to prototype faster and shorten the time from idea to production.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section-alt" id="engagement">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">How we work</p>
+          <h2>A clear process at every step</h2>
+          <p class="section-sub">Our process is built on communication, planning and managing risk early, so there are few surprises and the work ships on schedule.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h4>Discover</h4>
+            <p>We learn your business, users and constraints, analyse the specifications and agree on what success looks like.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h4>Plan</h4>
+            <p>We make architecture decisions, estimate the effort, map out the risks and build a roadmap you can follow in JIRA.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h4>Build</h4>
+            <p>We work in short iterations with regular demos and tested code. Designs are built from Figma to match exactly.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h4>Ship &amp; support</h4>
+            <p>Automated deployments, monitoring, and ongoing maintenance for change requests and technical support.</p>
+          </li>
+        </ol>
+
+        <div class="models">
+          <div class="model reveal">
+            <h4>Project-based</h4>
+            <p>A defined scope, timeline and deliverables. Suited to new products, MVPs and rebuilds.</p>
+          </div>
+          <div class="model reveal featured">
+            <span class="badge">Most popular</span>
+            <h4>Team extension</h4>
+            <p>Engineers who join your team for as long as you need them. Suited to growing roadmaps and skill gaps.</p>
+          </div>
+          <div class="model reveal">
+            <h4>Consulting</h4>
+            <p>Architecture reviews, CI/CD improvements and technical guidance for teams that need a second opinion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech stack -->
+    <section class="section" id="stack">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Tech stack</p>
+          <h2>Tools we use in production</h2>
+          <p class="section-sub">We've used every one of these on real client projects.</p>
+        </header>
+
+        <div class="stack-grid">
+          <div class="stack-group reveal">
+            <h4>Languages</h4>
+            <ul class="chips">
+              <li>JavaScript</li><li>TypeScript</li><li>Python</li><li>SQL</li><li>HTML</li><li>CSS</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h4>Frameworks &amp; libraries</h4>
+            <ul class="chips">
+              <li>React</li><li>Redux</li><li>Node.js</li><li>Express</li><li>NestJS</li><li>Flask</li><li>Django</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h4>Data &amp; messaging</h4>
+            <ul class="chips">
+              <li>PostgreSQL / SQL</li><li>MongoDB</li><li>NoSQL</li><li>Redis</li><li>RabbitMQ</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h4>Cloud &amp; DevOps</h4>
+            <ul class="chips">
+              <li>AWS</li><li>CI/CD pipelines</li><li>Docker</li><li>Linux</li><li>Git</li><li>Microservices</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h4>Quality &amp; low-code</h4>
+            <ul class="chips">
+              <li>Jest</li><li>Unit tests</li><li>Integration tests</li><li>E2E tests</li><li>OutSystems</li>
+            </ul>
+          </div>
+          <div class="stack-group reveal">
+            <h4>Workflow &amp; AI</h4>
+            <ul class="chips">
+              <li>Claude</li><li>GitHub Copilot</li><li>JIRA</li><li>Figma</li><li>Postman</li><li>VS Code</li><li>JetBrains IDEs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Our track record</p>
+          <h2>Nearly a decade of client work</h2>
+          <p class="section-sub">Our history of long-term partnerships. Client names are kept confidential.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <div class="tl-date">2022 — Present</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h4>Fintech platform</h4>
+                <span class="tag">Full-stack · Remote</span>
+              </div>
+              <ul>
+                <li>Designed and built the full-stack architecture for high-throughput fintech features, optimising data flow and asynchronous messaging with Redis and RabbitMQ.</li>
+                <li>Streamlined AWS CI/CD pipelines with cross-functional teams, using AI-assisted tools to speed up prototyping and cut deployment time.</li>
+                <li>Built responsive financial dashboards in React, TypeScript and Redux that keep data in sync across views.</li>
+              </ul>
+              <ul class="chips small">
+                <li>React</li><li>TypeScript</li><li>Node.js</li><li>Microservices</li><li>Redis</li><li>RabbitMQ</li><li>Docker</li><li>AWS</li><li>Claude</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-date">2020 — 2022</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h4>European IT services group · fintech project</h4>
+                <span class="tag">Software engineering · Remote</span>
+              </div>
+              <ul>
+                <li>Delivered front-end and back-end features for a fast-paced fintech product.</li>
+                <li>Improved code quality with unit and end-to-end test suites.</li>
+                <li>Worked with several teams on AWS CI/CD pipelines to get features to production quickly.</li>
+              </ul>
+              <ul class="chips small">
+                <li>React</li><li>Redux</li><li>NestJS</li><li>Express</li><li>SQL</li><li>Docker</li><li>Jest</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-date">2018 — 2020</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h4>International logistics &amp; shipping company</h4>
+                <span class="tag">Software engineering</span>
+              </div>
+              <ul>
+                <li>Built features from JIRA requirements and Figma designs.</li>
+                <li>Worked with the product team to improve UX and UI across internal applications.</li>
+                <li>Built reusable components that made the whole team more productive.</li>
+              </ul>
+              <ul class="chips small">
+                <li>Python</li><li>Flask</li><li>Django</li><li>React</li><li>TypeScript</li><li>Docker</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <div class="tl-date">2017 — 2018</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h4>Software outsourcing company</h4>
+                <span class="tag">Software development</span>
+              </div>
+              <ul>
+                <li>Implemented, documented, tested and reviewed code to strict standards.</li>
+                <li>Analysed specifications, estimated effort and contributed to design and architecture decisions.</li>
+                <li>Handled maintenance, change requests and technical support, and helped improve the development process.</li>
+              </ul>
+              <ul class="chips small">
+                <li>Python</li><li>Django</li><li>React</li><li>NestJS</li><li>MongoDB</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section" id="why">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Why Simple Code</p>
+          <h2>Why clients keep working with us</h2>
+        </header>
+        <div class="values">
+          <div class="value reveal">
+            <h4>Communication</h4>
+            <p>Clear, frequent updates. You'll know where the work stands without having to ask.</p>
+          </div>
+          <div class="value reveal">
+            <h4>Teamwork</h4>
+            <p>We join your team and share responsibility for the result.</p>
+          </div>
+          <div class="value reveal">
+            <h4>Risk management</h4>
+            <p>We identify risks early and deal with them before they become problems.</p>
+          </div>
+          <div class="value reveal">
+            <h4>Planning</h4>
+            <p>Realistic estimates and roadmaps that account for changes along the way.</p>
+          </div>
+          <div class="value reveal">
+            <h4>Problem solving</h4>
+            <p>We look for the simplest solution that works and can be maintained.</p>
+          </div>
+          <div class="value reveal">
+            <h4>Quality</h4>
+            <p>Tested, reviewed and documented code that your team can maintain after we hand it over.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta reveal">
+          <div class="cta-copy">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Have a project or need more engineers?</h2>
+            <p>Tell us what you're working on. We'll reply within one business day with our questions, possible approaches and next steps.</p>
+            <ul class="cta-points">
+              <li>Free initial consultation</li>
+              <li>NDA available on request</li>
+              <li>Remote-first, EU based</li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="type">I'm interested in</label>
+              <select id="type" name="type">
+                <option>Custom software development</option>
+                <option>Team extension</option>
+                <option>Consulting</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">About your project</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-block" type="submit">Send message</button>
+            <p class="form-note" id="form-note" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="url(#bg2)" />
+          <path d="M12 10l-5 6 5 6M20 10l5 6-5 6" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          <defs><linearGradient id="bg2" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#22d3ee" /><stop offset="1" stop-color="#8b5cf6" /></linearGradient></defs>
+        </svg>
+        <span>Simple Code <strong>Solutions</strong></span>
+      </a>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#engagement">How we work</a>
+        <a href="#stack">Tech stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="copyright">© <span id="year">2026</span> Simple Code Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
